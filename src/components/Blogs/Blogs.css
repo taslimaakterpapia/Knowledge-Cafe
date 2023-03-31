@@ -2,6 +2,42 @@
 
 width: 845px;
 height: 821px;
-left: 320px;
-top: 178px;
+/* left: 320px; */
+/* top: 178px; */
+margin-bottom: 100px;
 }
+
+.author{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+   
+
+}
+.img{
+
+ display: flex;
+ align-items: center;
+ 
+}
+.name{
+    margin-left: 24px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    margin-right: 110px;
+    font-size: 20px;
+    gap: 40px;
+}
+
+.mark-as-read{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.title{
+    padding-top: 0;
+}
+
