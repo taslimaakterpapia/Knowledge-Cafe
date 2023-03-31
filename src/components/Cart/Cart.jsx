@@ -4,10 +4,11 @@ import Blogs from '../Blogs/Blogs';
 const Cart = () => {
 
  const [cart, setCart] = useState([]);
+ const [bookmark, setBookmark] = useState([]);
 
 
 
- 
+
  useEffect(() =>{
  fetch('data.json')
  .then(res => res.json()) 
@@ -16,7 +17,10 @@ const Cart = () => {
  },[])
 
  const handelAddTOData = (cart) => {
-    console.log(cart)
+   const newBookmark = [...bookmark, cart];
+   setBookmark(newBookmark);
+
+
 }
 
 
@@ -37,7 +41,7 @@ const Cart = () => {
               </div>
 
             <div className='bookmark'> 
-           <h4>Bookmarked Blogs : </h4>
+           <h4>Bookmarked Blogs: {bookmark.length}  </h4>
             </div>
             
         </div>
