@@ -1,10 +1,13 @@
 import React from 'react';
+import './Header.css';
+
 
 const Header = () => {
     return (
-        <div>
+        <nav className='header'>
             <h2>Knowledge Cafe</h2>
-        </div>
+            <a href="/profile"><img src="image/Ellipse 1 (3).png" alt="" /></a>
+        </nav>
     );
 };
 
