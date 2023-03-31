@@ -15,12 +15,26 @@ margin-bottom: 100px;
    
 
 }
-.img{
+.author-info{
 
  display: flex;
  align-items: center;
  
 }
+
+
+img {
+    border-radius:8px;
+  }
+h4{
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 5px;
+}
+
+
+
 .name{
     margin-left: 24px;
 }
@@ -28,16 +42,22 @@ margin-bottom: 100px;
 .time{
     display: flex;
     align-items: center;
-    margin-right: 110px;
+    margin-right: 80px;
     font-size: 20px;
-    gap: 40px;
+    
 }
+
+.icon{
+
+    background: none;
+    border: none;
+    
+}
+
 
 .mark-as-read{
     text-decoration: underline;
     color: blueviolet;
 }
-.title{
-    padding-top: 0;
-}
+
 

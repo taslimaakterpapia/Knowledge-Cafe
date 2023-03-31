@@ -3,13 +3,22 @@ import './Blogs.css'
 
 const Blogs = (props) => {
     const { id, name, image, date, time, title, tag, banner } = props.blog;
+    
+    
+    const handelAddTOData =props.handelAddTOData;
+    
+    
+    
+    
+    
+    
     return (
         <div className='blogs'>
             <img src={banner} alt="" />
 
             <div className='author'>
 
-                <div className='img'>
+                <div className='author-info'>
                     <div>
                         <img src={image} alt="" />
                     </div>
@@ -22,7 +31,9 @@ const Blogs = (props) => {
 
                 <div className='time'>
                     <h5>{time}</h5>
-                    <img src="image/Vector.png" alt="" />
+                    {/* <a href=""><img src="image/Vector.png" alt="" /></a> */}
+                    <button onClick={() => handelAddTOData(props.blog)} className='icon'>
+                        <img src="image/Vector.png" alt="" /></button>
                 </div>
 
             </div>
@@ -30,8 +41,8 @@ const Blogs = (props) => {
 
             <h1>{title}</h1>            
             <p>{tag}</p>
-
-            <p className='mark-as-read'>Mark as read</p>
+            <a className='mark-as-read' href="">Mark as read</a>
+            
 
 
         </div>
