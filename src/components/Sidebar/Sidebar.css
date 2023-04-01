@@ -1,0 +1,35 @@
+
+.spend-time p {
+  background: rgba(96, 71, 236, 0.1);
+  border: 1px solid blueviolet;
+  border-radius: 8px;
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+
+.bookmarks {
+  background: rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  font-weight: 700;
+ font-size: 24px;
+ margin-left: 20px;
+}
+.bookmarks-blogs{
+  font-weight: 600;
+  font-size: 18px;
+
+}
+
+.blogs-title {
+  padding: 4px;
+  background: #FFFFFF;
+  border-radius: 8px;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+

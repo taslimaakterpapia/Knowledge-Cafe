@@ -1,0 +1,10 @@
+.single-blog p {
+  margin: 0;
+  padding: 0;
+}
+.card-text span {
+  cursor: pointer;
+}
+.mark-add{
+  color: blueviolet;
+}

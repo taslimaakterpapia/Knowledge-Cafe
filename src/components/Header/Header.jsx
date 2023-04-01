@@ -1,18 +1,40 @@
-import React from 'react';
+import React from "react";
+
 
 
 const Header = () => {
-    return (
-        <div>
-            <nav className="d-flex justify-content-between align-items-center mx-md-5 px-md-5 mt-3">
-                <a className="navbar-brand fs-3 fw-semibold" href="#">
-                    Knowledge Cafe
-                </a>
-                <img src="https://media.istockphoto.com/id/1344688156/photo/portrait-of-a-man-using-a-computer-in-a-modern-office.jpg?b=1&s=170667a&w=0&k=20&c=AAVVOvN9uY1Rd_0QsWb8WvBN-4VSUdCORiZx51s5OLc=" width="40px" height="40px" className="rounded-circle" alt="" />
-            </nav>
-            <hr className='mt-4 container text-center ' />
+  return (
+    <>
+      <nav className="navbar navbar-expand-md bg-body-tertiary mt-3">
+        <div className="container px-md-5">
+          <div className="px-md-5">
+            <a className="navbar-brand fs-2 fw-bolder" href="#">
+            Knowledge Cafe
+            </a>
+          </div>
+          <div className="px-md-5">
+            <div
+              className="d-md-flex justify-content-md-end gap-3"
+              id="navbarNav"
+            >
+              <div>
+                <img
+                  src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2022/07/Agnes3-e1658741047364.jpg"
+                  className="card-img-top rounded-circle"
+                  alt="razib"
+                  style={{ height: "50px", width: "50px" }}
+                />
+              </div>
+            </div>
+          </div>
         </div>
-    );
+      </nav>
+      <div className="container px-md-5 w-75">
+        <hr />
+
+      </div>
+    </>
+  );
 };
 
 export default Header;

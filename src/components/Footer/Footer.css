@@ -1,0 +1,41 @@
+.question-div{
+
+
+    margin-top: 50px;
+    background-color: rgb(152, 174, 215);
+    color: black;
+
+    padding-bottom: 40px;
+    
+}
+.text-center{
+    text-align: center;
+    text-decoration:underline;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.main{
+    margin: 20px;
+    
+    
+}
+
+.table-container{
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.tr{
+    background-color: rgb(244, 164, 65);
+    border-color: black;
+}
+
+tr{
+    border-color: black;
+}
+
+p{
+    padding-left: 30px;
+}
