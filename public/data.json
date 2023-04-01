@@ -1,55 +1,38 @@
 [
- {
-    "id": 1,
-    "image": "../image/1.png",
-    "name": "LIZ MOWFORTH",
-    "date": "MARCH 13, 2023 (19 days ago)",
-    "time":"07 min read",
-    "title": "The 7 Essential Web Development Tools for 2023",
-    "tag": " #javascript #programming #beginners ",    
-    "banner":"https://img.freepik.com/free-vector/flat-design-cms-illustration_23-2148822448.jpg?w=740&t=st=1680264256~exp=1680264856~hmac=95a56355b46b161a2f2110bf5979edb0f662d1f929f6467af7e7acb1801bb464"
-
-
- },
-
- {
-    "id": 2,
-    "name": "MATTHEW DEERY",
-    "image": "../image/2.png",
-    "date": "MARCH 15, 2023 (17 days ago)",
-    "time": "07 min read",
-    "title": "11 Reasons Why You Should Become a Web Developer",
-    "tag": "#programming #beginners",
-    "banner":"https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=740&t=st=1680264121~exp=1680264721~hmac=ee472ea68f3b3e4f4b3b80cf40a6750ac4d025beb6ad73d0b669e0209b4dabac"
-
- },
- {
-    "id": 3,
-    "name": "ERIC THOMPSON",
-    "image": "../image/3.png",
-    "date": "FEBRUARY 22, 2023 (1 month ago)",
-    "time": "09 min read",
-    "title": "Coding for Beginners: A Simple Guide for 2023",
-    "tag": "#programming #beginners",
-    "banner":"https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=740&t=st=1680264356~exp=1680264956~hmac=ab1b85b8ccb39ee7ea2c00f30e95c6d86fc99c5c4353d27105323cb0d780013b"
-
- },
- {
-    "id": 4,
-    "image": "../image/4.png",
-    "name": "AGNES NDUTA",
-    "date": "JANUARY 25, 2023 (2 month ago)",
-    "time": "16 min read",
-    "title": "What is Debugging? A Beginner’s Guide for 2023",
-    "tag": " #javascript #programming #beginners ",    
-    "banner":"https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=740&t=st=1680264093~exp=1680264693~hmac=595948ee1b37a3d846d2581fecc8e80bc33ddbefd795cddf7229d83b75ef5d8a"
-
- }
-
-
-
-
-
-
-
+  {
+    "id": "01",
+    "Author_name": "LIZ MOWFORTH",
+    "Author_image": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/LizMowforth.jpeg",
+    "Blog_title": "The 7 Essential Web Development Tools for 2023",
+    "Blog_image": "https://img.freepik.com/free-vector/flat-design-cms-illustration_23-2148822448.jpg?w=740&t=st=1680264256~exp=1680264856~hmac=95a56355b46b161a2f2110bf5979edb0f662d1f929f6467af7e7acb1801bb464",
+    "Read_time": 7,
+    "Publish_Date": "MARCH 13 (19 days ago)"
+  },
+  {
+    "id": "02",
+    "Author_name": "MATTHEW DEERY",
+    "Author_image": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/05/headshotweb-min-min.png",
+    "Blog_title": "11 Reasons Why You Should Become a Web Developer",
+    "Blog_image": "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?w=740&t=st=1680264121~exp=1680264721~hmac=ee472ea68f3b3e4f4b3b80cf40a6750ac4d025beb6ad73d0b669e0209b4dabac",
+    "Read_time": 7,
+    "Publish_Date": "MARCH 15 (17 days ago)"
+  },
+  {
+    "id": "03",
+    "Author_name": "ERIC THOMPSON",
+    "Author_image": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2022/12/Me-and-White-Background-2-min.jpg",
+    "Blog_title": "Coding for Beginners: A Simple Guide for 2023",
+    "Blog_image": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=740&t=st=1680264356~exp=1680264956~hmac=ab1b85b8ccb39ee7ea2c00f30e95c6d86fc99c5c4353d27105323cb0d780013b",
+    "Read_time": 9,
+    "Publish_Date": "FEBRUARY 22 (1 month ago)"
+  },
+  {
+    "id": "04",
+    "Author_name": "AGNES NDUTA",
+    "Author_image": "https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2022/07/Agnes3-e1658741047364.jpg",
+    "Blog_title": "What is Debugging? A Beginner’s Guide for 2023",
+    "Blog_image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=740&t=st=1680264093~exp=1680264693~hmac=595948ee1b37a3d846d2581fecc8e80bc33ddbefd795cddf7229d83b75ef5d8a",
+    "Read_time": 16,
+    "Publish_Date": "JANUARY 25, 2023 (2 month ago)"
+  }
 ]

@@ -1,51 +1,21 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Cart.css'
-import Blogs from '../Blogs/Blogs';
-const Cart = () => {
 
- const [cart, setCart] = useState([]);
- const [bookmark, setBookmark] = useState([]);
+const Cart = ({ times, texts }) => {
 
-
-
-
- useEffect(() =>{
- fetch('data.json')
- .then(res => res.json()) 
- .then(data => setCart(data))
-
- },[])
-
- const handelAddTOData = (cart) => {
-   const newBookmark = [...bookmark, cart];
-   setBookmark(newBookmark);
-
-
-}
-
-
+    // console.log(times)
     return (
-        <div className='container'>
-
-            <div className='blog-container'>
-              
-
-              {
-                cart.map(blog =><Blogs
-                key ={blog.id}
-                blog = {blog}
-                handelAddTOData = {handelAddTOData}
-                ></Blogs>)
-                
-              }
-              </div>
-
-            <div className='bookmark'> 
-           <h4>Bookmarked Blogs: {bookmark.length}  </h4>
+        <div className='position-sticky top-0'>
+            <p className='btn bg-transparent fw-bold w-100'>Spent time on read : {times} min</p>
+            <div className='card bg-secondary bg-opacity-25'>
+                <p className='fw-bold'>Bookmarked Blogs : {texts.length}</p>
+                {
+                    texts.map(text => <p className='card bg-light'>{text}</p>)
+                }
             </div>
-            
         </div>
     );
+
 };
 
 export default Cart;
